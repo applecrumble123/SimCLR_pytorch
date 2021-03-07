@@ -9,6 +9,7 @@ There is no bluring of images as images for CIFAR10 is too small
 
 Get CIFAR10 images from https://github.com/YoongiKim/CIFAR-10-images
 
+Using only 1 GPU
 
 # Run Code
 
