@@ -1,0 +1,40 @@
+import os
+
+TRAIN_DIR = '/Users/johnathontoh/Desktop/CIFAR-10-images/train/'
+TEST_DIR = '/Users/johnathontoh/Desktop/CIFAR-10-images/test/'
+MAIN_FOLDER = '/Users/johnathontoh/Desktop/CL'
+
+MODEL_CHECKPOINT_FOLDER = os.path.join(MAIN_FOLDER, 'resnet50/checkpoints')
+
+SAVED_MODEL_PATH = os.path.join(MODEL_CHECKPOINT_FOLDER, 'model.pth')
+
+SAVED_MODEL_PATH_2 = os.path.join(MODEL_CHECKPOINT_FOLDER, 'mean_batch_loss_model.pth')
+
+EPOCHS = 200
+
+GPU_NUM = 0
+
+COLOUR_DISTORTION_STRENGTH = 0.5 # (1 is for imagenet)
+
+GAUSSIAN_BLUR_TRAIN = False
+
+TRAIN_IMG_INPUT_HEIGHT = 32
+
+EVAL_IMG_INPUT_HEIGHT = 32
+
+BATCH_SIZE = 1024
+
+PROJECTION_LINEAR_1_INPUT = 2048
+PROJECTION_LINEAR_1_OUTPUT = 2048
+
+PROJECTION_LINEAR_2_INPUT = 2048
+PROJECTION_LINEAR_2_OUTPUT = 128
+
+OPTIMIZER_LR = 1.0
+OPTIMZER_WEIGHT_DECAY = 1e-6
+
+NT_XENT_LOSS_TEMP = 0.5
+
+
+
+
